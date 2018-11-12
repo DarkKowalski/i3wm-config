@@ -209,8 +209,8 @@ bindsym --release Print exec "scrot -b -m /tmp/screenshot.png && xclip -selectio
 bindsym --release $mod+Print exec "scrot -u -b -m /tmp/screenshot.png && xclip -selection clipoard -t 'image/png' /tmp/screenshot.png"
 # selection
 bindsym --release $mod+Shift+Print exec "scrot -s -b -m /tmp/screenshot.png && xclip -selection clipoard -t 'image/png' /tmp/screenshot.png"
-# Windows 10 style hotkey for selection
-bindsym --release $mod+Shift+s exec "scrot -s -b -m /tmp/screenshot.png && xclip -selection clipoard -t 'image/png' /tmp/screenshot.png"
+# hotkey for selection
+bindsym --release $mod+Shift+a exec "scrot -s -b -m /tmp/screenshot.png && xclip -selection clipoard -t 'image/png' /tmp/screenshot.png"
 
 # volume control
 # alsamixer
