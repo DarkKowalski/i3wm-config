@@ -2,7 +2,7 @@
 set -eu
 
 NOTIF_TITLE="Suspend"
-NOTIF_BODY="Now you can turn of your computer safely"
+NOTIF_BODY="Now you can turn off your computer safely"
 NOTIF_DELAY=5
 SLEEP_DELAY=0.2
 
